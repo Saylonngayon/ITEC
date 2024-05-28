@@ -48,6 +48,8 @@ namespace Multi_Tool_Project.Tools
 
         private void btnExit_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Exiting the System, Goodbye!");
+            Thread.Sleep(50);
             Application.Exit();
         }
 

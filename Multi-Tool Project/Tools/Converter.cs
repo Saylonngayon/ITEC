@@ -45,7 +45,7 @@ namespace Multi_Tool_Project.Tools
                 case "Area":
                     comboBoxUnitFrom.Items.AddRange(new string[] { "Square Meter", "Square Kilometer", "Square Mile", "Acre" , "Hectare" , "Square Centimeter"
                         , "Square Feet" , "Square Millimeters" , "Square Yards" });
-                    comboBoxUnitTo.Items.AddRange(new string[] { "Square Meter", "Square Kilometer", "Square Mile", "Acre" , "Hectare" , "Square Centimeter" 
+                    comboBoxUnitTo.Items.AddRange(new string[] { "Square Meter", "Square Kilometer", "Square Mile", "Acre" , "Hectare" , "Square Centimeter"
                         , "Square Feet" , "Square Millimeters" , "Square Yards" });
                     break;
                 case "Bytes":
@@ -146,7 +146,7 @@ namespace Multi_Tool_Project.Tools
                 case "Acre":
                     valueInSquareMeters = value * 4_046.85642; // 1 ac = 4,046.85642 m²
                     break;
-                case "Hectare": 
+                case "Hectare":
                     valueInSquareMeters = value * 10000; // 1 hectare = 10000 square meters
                     break;
                 case "Square Centimeters":
@@ -331,5 +331,21 @@ namespace Multi_Tool_Project.Tools
         {
 
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            mainHub mainHubForm = new mainHub();
+            mainHubForm.Show();
+            this.Hide();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Exiting the System, Goodbye!");
+            Thread.Sleep(50);
+            Application.Exit();
+
+        }
+
     }
 }

@@ -56,7 +56,6 @@
             btncompoundInterest.TabIndex = 1;
             btncompoundInterest.Text = "Compound Interest";
             btncompoundInterest.UseVisualStyleBackColor = true;
-            btncompoundInterest.Click += btncompoundInterest_Click;
             // 
             // btninvestmentReturns
             // 
@@ -82,7 +81,7 @@
             // 
             // btnExit
             // 
-            btnExit.Location = new Point(286, 295);
+            btnExit.Location = new Point(529, 514);
             btnExit.Margin = new Padding(3, 4, 3, 4);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(67, 37);
@@ -93,7 +92,7 @@
             // 
             // btnReturn
             // 
-            btnReturn.Location = new Point(286, 255);
+            btnReturn.Location = new Point(529, 474);
             btnReturn.Margin = new Padding(3, 4, 3, 4);
             btnReturn.Name = "btnReturn";
             btnReturn.Size = new Size(67, 37);
