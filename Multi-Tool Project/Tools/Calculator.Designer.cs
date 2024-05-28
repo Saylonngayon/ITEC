@@ -75,10 +75,11 @@ namespace calculator
             // textBox
             // 
             textBox.Font = new Font("Microsoft Sans Serif", 19.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox.Location = new Point(4, 11);
+            textBox.Location = new Point(5, 15);
+            textBox.Margin = new Padding(3, 4, 3, 4);
             textBox.Multiline = true;
             textBox.Name = "textBox";
-            textBox.Size = new Size(527, 56);
+            textBox.Size = new Size(602, 73);
             textBox.TabIndex = 0;
             textBox.Text = "0";
             textBox.TextAlign = HorizontalAlignment.Right;
@@ -86,9 +87,10 @@ namespace calculator
             // button1
             // 
             button1.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(8, 88);
+            button1.Location = new Point(9, 117);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(60, 52);
+            button1.Size = new Size(69, 69);
             button1.TabIndex = 1;
             button1.Text = "Exit";
             button1.UseVisualStyleBackColor = true;
@@ -97,9 +99,10 @@ namespace calculator
             // button2
             // 
             button2.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(8, 146);
+            button2.Location = new Point(9, 195);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(60, 52);
+            button2.Size = new Size(69, 69);
             button2.TabIndex = 1;
             button2.Text = "Sinh";
             button2.UseVisualStyleBackColor = true;
@@ -108,9 +111,10 @@ namespace calculator
             // button3
             // 
             button3.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(8, 204);
+            button3.Location = new Point(9, 272);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(60, 52);
+            button3.Size = new Size(69, 69);
             button3.TabIndex = 1;
             button3.Text = "Cosh";
             button3.UseVisualStyleBackColor = true;
@@ -119,9 +123,10 @@ namespace calculator
             // button4
             // 
             button4.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(8, 262);
+            button4.Location = new Point(9, 349);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(60, 52);
+            button4.Size = new Size(69, 69);
             button4.TabIndex = 1;
             button4.Text = "Tanh";
             button4.UseVisualStyleBackColor = true;
@@ -130,9 +135,10 @@ namespace calculator
             // button5
             // 
             button5.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button5.Location = new Point(8, 321);
+            button5.Location = new Point(9, 428);
+            button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
-            button5.Size = new Size(60, 52);
+            button5.Size = new Size(69, 69);
             button5.TabIndex = 1;
             button5.Text = "EXP";
             button5.UseVisualStyleBackColor = true;
@@ -141,9 +147,10 @@ namespace calculator
             // button6
             // 
             button6.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button6.Location = new Point(139, 88);
+            button6.Location = new Point(159, 117);
+            button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
-            button6.Size = new Size(60, 52);
+            button6.Size = new Size(69, 69);
             button6.TabIndex = 1;
             button6.Text = "Log";
             button6.UseVisualStyleBackColor = true;
@@ -152,9 +159,10 @@ namespace calculator
             // button7
             // 
             button7.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button7.Location = new Point(74, 146);
+            button7.Location = new Point(85, 195);
+            button7.Margin = new Padding(3, 4, 3, 4);
             button7.Name = "button7";
-            button7.Size = new Size(60, 52);
+            button7.Size = new Size(69, 69);
             button7.TabIndex = 1;
             button7.Text = "Sin";
             button7.UseVisualStyleBackColor = true;
@@ -163,9 +171,10 @@ namespace calculator
             // button8
             // 
             button8.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button8.Location = new Point(74, 204);
+            button8.Location = new Point(85, 272);
+            button8.Margin = new Padding(3, 4, 3, 4);
             button8.Name = "button8";
-            button8.Size = new Size(60, 52);
+            button8.Size = new Size(69, 69);
             button8.TabIndex = 1;
             button8.Text = "Cos";
             button8.UseVisualStyleBackColor = true;
@@ -174,9 +183,10 @@ namespace calculator
             // button9
             // 
             button9.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button9.Location = new Point(74, 262);
+            button9.Location = new Point(85, 349);
+            button9.Margin = new Padding(3, 4, 3, 4);
             button9.Name = "button9";
-            button9.Size = new Size(60, 52);
+            button9.Size = new Size(69, 69);
             button9.TabIndex = 1;
             button9.Text = "Tan";
             button9.UseVisualStyleBackColor = true;
@@ -185,9 +195,10 @@ namespace calculator
             // button10
             // 
             button10.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button10.Location = new Point(74, 321);
+            button10.Location = new Point(85, 428);
+            button10.Margin = new Padding(3, 4, 3, 4);
             button10.Name = "button10";
-            button10.Size = new Size(60, 52);
+            button10.Size = new Size(69, 69);
             button10.TabIndex = 1;
             button10.Text = "Pi";
             button10.UseVisualStyleBackColor = true;
@@ -196,9 +207,10 @@ namespace calculator
             // button11
             // 
             button11.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button11.Location = new Point(205, 88);
+            button11.Location = new Point(234, 117);
+            button11.Margin = new Padding(3, 4, 3, 4);
             button11.Name = "button11";
-            button11.Size = new Size(60, 52);
+            button11.Size = new Size(69, 69);
             button11.TabIndex = 1;
             button11.Text = "Sqrt";
             button11.UseVisualStyleBackColor = true;
@@ -207,9 +219,10 @@ namespace calculator
             // button12
             // 
             button12.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button12.Location = new Point(139, 146);
+            button12.Location = new Point(159, 195);
+            button12.Margin = new Padding(3, 4, 3, 4);
             button12.Name = "button12";
-            button12.Size = new Size(60, 52);
+            button12.Size = new Size(69, 69);
             button12.TabIndex = 1;
             button12.Text = "X^2";
             button12.UseVisualStyleBackColor = true;
@@ -218,9 +231,10 @@ namespace calculator
             // button13
             // 
             button13.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button13.Location = new Point(139, 204);
+            button13.Location = new Point(159, 272);
+            button13.Margin = new Padding(3, 4, 3, 4);
             button13.Name = "button13";
-            button13.Size = new Size(60, 52);
+            button13.Size = new Size(69, 69);
             button13.TabIndex = 1;
             button13.Text = "X^3";
             button13.UseVisualStyleBackColor = true;
@@ -229,9 +243,10 @@ namespace calculator
             // button14
             // 
             button14.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button14.Location = new Point(139, 262);
+            button14.Location = new Point(159, 349);
+            button14.Margin = new Padding(3, 4, 3, 4);
             button14.Name = "button14";
-            button14.Size = new Size(60, 52);
+            button14.Size = new Size(69, 69);
             button14.TabIndex = 1;
             button14.Text = "1/x";
             button14.UseVisualStyleBackColor = true;
@@ -240,9 +255,10 @@ namespace calculator
             // button15
             // 
             button15.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button15.Location = new Point(139, 321);
+            button15.Location = new Point(159, 428);
+            button15.Margin = new Padding(3, 4, 3, 4);
             button15.Name = "button15";
-            button15.Size = new Size(60, 52);
+            button15.Size = new Size(69, 69);
             button15.TabIndex = 1;
             button15.Text = "MOD";
             button15.UseVisualStyleBackColor = true;
@@ -251,9 +267,10 @@ namespace calculator
             // button17
             // 
             button17.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button17.Location = new Point(205, 146);
+            button17.Location = new Point(234, 195);
+            button17.Margin = new Padding(3, 4, 3, 4);
             button17.Name = "button17";
-            button17.Size = new Size(60, 52);
+            button17.Size = new Size(69, 69);
             button17.TabIndex = 1;
             button17.Text = "Ln X";
             button17.UseVisualStyleBackColor = true;
@@ -262,9 +279,10 @@ namespace calculator
             // button18
             // 
             button18.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button18.Location = new Point(205, 204);
+            button18.Location = new Point(234, 272);
+            button18.Margin = new Padding(3, 4, 3, 4);
             button18.Name = "button18";
-            button18.Size = new Size(60, 52);
+            button18.Size = new Size(69, 69);
             button18.TabIndex = 1;
             button18.Text = "%";
             button18.UseVisualStyleBackColor = true;
@@ -273,9 +291,10 @@ namespace calculator
             // button19
             // 
             button19.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button19.Location = new Point(205, 262);
+            button19.Location = new Point(234, 349);
+            button19.Margin = new Padding(3, 4, 3, 4);
             button19.Name = "button19";
-            button19.Size = new Size(60, 52);
+            button19.Size = new Size(69, 69);
             button19.TabIndex = 1;
             button19.Text = "Ceil";
             button19.UseVisualStyleBackColor = true;
@@ -284,9 +303,10 @@ namespace calculator
             // button20
             // 
             button20.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button20.Location = new Point(205, 321);
+            button20.Location = new Point(234, 428);
+            button20.Margin = new Padding(3, 4, 3, 4);
             button20.Name = "button20";
-            button20.Size = new Size(60, 52);
+            button20.Size = new Size(69, 69);
             button20.TabIndex = 1;
             button20.Text = "Floor";
             button20.UseVisualStyleBackColor = true;
@@ -295,9 +315,10 @@ namespace calculator
             // button21
             // 
             button21.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button21.Location = new Point(273, 88);
+            button21.Location = new Point(312, 117);
+            button21.Margin = new Padding(3, 4, 3, 4);
             button21.Name = "button21";
-            button21.Size = new Size(60, 52);
+            button21.Size = new Size(69, 69);
             button21.TabIndex = 1;
             button21.Text = "CE";
             button21.UseVisualStyleBackColor = true;
@@ -306,9 +327,10 @@ namespace calculator
             // button22
             // 
             button22.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button22.Location = new Point(339, 88);
+            button22.Location = new Point(387, 117);
+            button22.Margin = new Padding(3, 4, 3, 4);
             button22.Name = "button22";
-            button22.Size = new Size(60, 52);
+            button22.Size = new Size(69, 69);
             button22.TabIndex = 1;
             button22.Text = "⌫";
             button22.UseVisualStyleBackColor = true;
@@ -317,9 +339,10 @@ namespace calculator
             // button23
             // 
             button23.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button23.Location = new Point(404, 88);
+            button23.Location = new Point(462, 117);
+            button23.Margin = new Padding(3, 4, 3, 4);
             button23.Name = "button23";
-            button23.Size = new Size(60, 52);
+            button23.Size = new Size(69, 69);
             button23.TabIndex = 1;
             button23.Text = "±";
             button23.UseVisualStyleBackColor = true;
@@ -328,9 +351,10 @@ namespace calculator
             // button24
             // 
             button24.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button24.Location = new Point(470, 88);
+            button24.Location = new Point(537, 117);
+            button24.Margin = new Padding(3, 4, 3, 4);
             button24.Name = "button24";
-            button24.Size = new Size(60, 52);
+            button24.Size = new Size(69, 69);
             button24.TabIndex = 1;
             button24.Text = "*";
             button24.UseVisualStyleBackColor = true;
@@ -339,9 +363,10 @@ namespace calculator
             // button25
             // 
             button25.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button25.Location = new Point(273, 146);
+            button25.Location = new Point(312, 195);
+            button25.Margin = new Padding(3, 4, 3, 4);
             button25.Name = "button25";
-            button25.Size = new Size(60, 52);
+            button25.Size = new Size(69, 69);
             button25.TabIndex = 1;
             button25.Text = "7";
             button25.UseVisualStyleBackColor = true;
@@ -350,9 +375,10 @@ namespace calculator
             // button26
             // 
             button26.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button26.Location = new Point(339, 146);
+            button26.Location = new Point(387, 195);
+            button26.Margin = new Padding(3, 4, 3, 4);
             button26.Name = "button26";
-            button26.Size = new Size(60, 52);
+            button26.Size = new Size(69, 69);
             button26.TabIndex = 1;
             button26.Text = "8";
             button26.UseVisualStyleBackColor = true;
@@ -361,9 +387,10 @@ namespace calculator
             // button27
             // 
             button27.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button27.Location = new Point(404, 146);
+            button27.Location = new Point(462, 195);
+            button27.Margin = new Padding(3, 4, 3, 4);
             button27.Name = "button27";
-            button27.Size = new Size(60, 52);
+            button27.Size = new Size(69, 69);
             button27.TabIndex = 1;
             button27.Text = "9";
             button27.UseVisualStyleBackColor = true;
@@ -372,9 +399,10 @@ namespace calculator
             // button28
             // 
             button28.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button28.Location = new Point(470, 146);
+            button28.Location = new Point(537, 195);
+            button28.Margin = new Padding(3, 4, 3, 4);
             button28.Name = "button28";
-            button28.Size = new Size(60, 52);
+            button28.Size = new Size(69, 69);
             button28.TabIndex = 1;
             button28.Text = "/";
             button28.UseVisualStyleBackColor = true;
@@ -383,9 +411,10 @@ namespace calculator
             // button29
             // 
             button29.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button29.Location = new Point(273, 204);
+            button29.Location = new Point(312, 272);
+            button29.Margin = new Padding(3, 4, 3, 4);
             button29.Name = "button29";
-            button29.Size = new Size(60, 52);
+            button29.Size = new Size(69, 69);
             button29.TabIndex = 1;
             button29.Text = "4";
             button29.UseVisualStyleBackColor = true;
@@ -394,9 +423,10 @@ namespace calculator
             // button30
             // 
             button30.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button30.Location = new Point(339, 204);
+            button30.Location = new Point(387, 272);
+            button30.Margin = new Padding(3, 4, 3, 4);
             button30.Name = "button30";
-            button30.Size = new Size(60, 52);
+            button30.Size = new Size(69, 69);
             button30.TabIndex = 1;
             button30.Text = "5";
             button30.UseVisualStyleBackColor = true;
@@ -405,9 +435,10 @@ namespace calculator
             // button31
             // 
             button31.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button31.Location = new Point(404, 204);
+            button31.Location = new Point(462, 272);
+            button31.Margin = new Padding(3, 4, 3, 4);
             button31.Name = "button31";
-            button31.Size = new Size(60, 52);
+            button31.Size = new Size(69, 69);
             button31.TabIndex = 1;
             button31.Text = "6";
             button31.UseVisualStyleBackColor = true;
@@ -416,9 +447,10 @@ namespace calculator
             // button32
             // 
             button32.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button32.Location = new Point(470, 204);
+            button32.Location = new Point(537, 272);
+            button32.Margin = new Padding(3, 4, 3, 4);
             button32.Name = "button32";
-            button32.Size = new Size(60, 52);
+            button32.Size = new Size(69, 69);
             button32.TabIndex = 1;
             button32.Text = "-";
             button32.UseVisualStyleBackColor = true;
@@ -427,9 +459,10 @@ namespace calculator
             // button33
             // 
             button33.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button33.Location = new Point(273, 262);
+            button33.Location = new Point(312, 349);
+            button33.Margin = new Padding(3, 4, 3, 4);
             button33.Name = "button33";
-            button33.Size = new Size(60, 52);
+            button33.Size = new Size(69, 69);
             button33.TabIndex = 1;
             button33.Text = "1";
             button33.UseVisualStyleBackColor = true;
@@ -438,9 +471,10 @@ namespace calculator
             // button34
             // 
             button34.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button34.Location = new Point(339, 262);
+            button34.Location = new Point(387, 349);
+            button34.Margin = new Padding(3, 4, 3, 4);
             button34.Name = "button34";
-            button34.Size = new Size(60, 52);
+            button34.Size = new Size(69, 69);
             button34.TabIndex = 1;
             button34.Text = "2";
             button34.UseVisualStyleBackColor = true;
@@ -449,9 +483,10 @@ namespace calculator
             // button35
             // 
             button35.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button35.Location = new Point(404, 262);
+            button35.Location = new Point(462, 349);
+            button35.Margin = new Padding(3, 4, 3, 4);
             button35.Name = "button35";
-            button35.Size = new Size(60, 52);
+            button35.Size = new Size(69, 69);
             button35.TabIndex = 1;
             button35.Text = "3";
             button35.UseVisualStyleBackColor = true;
@@ -460,9 +495,10 @@ namespace calculator
             // button36
             // 
             button36.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button36.Location = new Point(470, 262);
+            button36.Location = new Point(537, 349);
+            button36.Margin = new Padding(3, 4, 3, 4);
             button36.Name = "button36";
-            button36.Size = new Size(60, 111);
+            button36.Size = new Size(69, 148);
             button36.TabIndex = 1;
             button36.Text = "+";
             button36.UseVisualStyleBackColor = true;
@@ -471,9 +507,10 @@ namespace calculator
             // button37
             // 
             button37.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button37.Location = new Point(273, 321);
+            button37.Location = new Point(312, 428);
+            button37.Margin = new Padding(3, 4, 3, 4);
             button37.Name = "button37";
-            button37.Size = new Size(60, 52);
+            button37.Size = new Size(69, 69);
             button37.TabIndex = 1;
             button37.Text = ".";
             button37.UseVisualStyleBackColor = true;
@@ -482,9 +519,10 @@ namespace calculator
             // button38
             // 
             button38.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button38.Location = new Point(339, 321);
+            button38.Location = new Point(387, 428);
+            button38.Margin = new Padding(3, 4, 3, 4);
             button38.Name = "button38";
-            button38.Size = new Size(60, 52);
+            button38.Size = new Size(69, 69);
             button38.TabIndex = 1;
             button38.Text = "0";
             button38.UseVisualStyleBackColor = true;
@@ -493,9 +531,10 @@ namespace calculator
             // button39
             // 
             button39.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button39.Location = new Point(404, 321);
+            button39.Location = new Point(462, 428);
+            button39.Margin = new Padding(3, 4, 3, 4);
             button39.Name = "button39";
-            button39.Size = new Size(60, 52);
+            button39.Size = new Size(69, 69);
             button39.TabIndex = 1;
             button39.Text = "=";
             button39.UseVisualStyleBackColor = true;
@@ -504,9 +543,10 @@ namespace calculator
             // button16
             // 
             button16.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button16.Location = new Point(74, 88);
+            button16.Location = new Point(85, 117);
+            button16.Margin = new Padding(3, 4, 3, 4);
             button16.Name = "button16";
-            button16.Size = new Size(60, 52);
+            button16.Size = new Size(69, 69);
             button16.TabIndex = 2;
             button16.Text = "Return";
             button16.UseVisualStyleBackColor = true;
@@ -514,9 +554,10 @@ namespace calculator
             // 
             // button40
             // 
-            button40.Location = new Point(283, 70);
+            button40.Location = new Point(262, 87);
+            button40.Margin = new Padding(3, 4, 3, 4);
             button40.Name = "button40";
-            button40.Size = new Size(75, 23);
+            button40.Size = new Size(86, 31);
             button40.TabIndex = 3;
             button40.Text = "History";
             button40.UseVisualStyleBackColor = true;
@@ -524,9 +565,9 @@ namespace calculator
             // 
             // Calculator
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(540, 398);
+            ClientSize = new Size(617, 531);
             Controls.Add(button40);
             Controls.Add(button16);
             Controls.Add(button20);
@@ -568,6 +609,7 @@ namespace calculator
             Controls.Add(button6);
             Controls.Add(button1);
             Controls.Add(textBox);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Calculator";
             Text = "Scientific Calculator";
             Load += Calculator_Load;
